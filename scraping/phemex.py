@@ -47,7 +47,7 @@ for i in range(page_amount):
     time.sleep(2)
 
   
-filename = './data/phemex.csv'
+filename = './data/funding_phemex.csv'
 write_csv(filename, fund_data)
   
 driver.close() # closing the webdriver

@@ -47,6 +47,6 @@ for i in range(page_amount):
     time.sleep(2)
 
 fund_data = [data for data in fund_data if data != {}]
-filename = './data/binance.csv'
+filename = './data/funding_binance.csv'
 write_csv(filename, fund_data)
 driver.close() # closing the webdriver
