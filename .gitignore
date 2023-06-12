@@ -1,5 +1,5 @@
 env
 scraping/geckodriver.log
 /**/__pycache__
-/**/*.csv
+*.csv
 .html
